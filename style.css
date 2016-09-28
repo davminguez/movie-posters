@@ -1,0 +1,18 @@
+body {
+    font-family: 'Gloria Hallelujah', cursive;
+}
+
+h1 {
+    font-size: 50px;
+}
+
+
+img {
+    width: 200px;
+    margin: 7px;
+    -webkit-box-shadow: 5px 5px 10px 0px rgba(0,0,0,0.75);
+-moz-box-shadow: 5px 5px 10px 0px rgba(0,0,0,0.75);
+box-shadow: 5px 5px 10px 0px rgba(0,0,0,0.75);
+}
+
+

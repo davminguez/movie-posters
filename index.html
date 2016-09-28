@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta name="description" content="A responsive movie poster grabber">
+    <title>WHAT MOVIE?!</title>
+    <meta name="viewport" content="width=device-width, minimum-scale=1.0, maximum-scale=1.0">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" />
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.3/css/font-awesome.min.css">
+    <link href="https://fonts.googleapis.com/css?family=Gloria+Hallelujah" rel="stylesheet">
+    <link rel="stylesheet" href="style.css" />
+</head>
+
+<body>
+    <div class="container-fluid">
+        <div class="row">
+            <div class="col-md-8 col-md-offset-2 text-center">
+                <header>
+                    <h1>WHAT MOVIE?!</h1>
+                </header>
+                <section id="fetch">
+                    <input type="text" placeholder="Enter a movie title" id="term" />
+                    <button id="search" class="btn btn-success">Find me a poster</button>
+                </section>
+                <section id="poster">
+                </section>
+                <footer>
+                    <p></p>
+                </footer>
+            </div>
+        </div>
+    </div>
+    <script src="http://ajax.aspnetcdn.com/ajax/jQuery/jquery-1.6.2.min.js"></script>
+    <script src="app.js"></script>
+</body>
+
+</html>
